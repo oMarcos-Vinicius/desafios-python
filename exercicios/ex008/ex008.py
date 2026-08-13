@@ -1,0 +1,8 @@
+metros = int(input("Uma distancia em metros: "))
+print("A medida de {:.1f}m corresponde a".format(metros))
+print("{}km".format(metros/1000))
+print("{}hm".format(metros/100))
+print("{}dam".format(metros/10))
+print("{}dm".format(metros*10))
+print("{}cm".format(metros*100))
+print("{}mm".format(metros*1000))
